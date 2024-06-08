@@ -11,7 +11,7 @@ headers = {'Customer': str(44) ,}
 
 
 response = requests.put(url, auth=('ricardoaraujo@trixlog','P4t4p0n3!'),  headers=headers, json=payload)
-# data = response.json()
+data = response.json()
 # print(data)
 # print(data['registration'])
 
