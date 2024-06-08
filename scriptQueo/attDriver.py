@@ -1,6 +1,7 @@
 import requests
 import json
--
+
+
 url = "https://server.trixlog.com/driver/43936"
 
 payload = {
@@ -10,7 +11,7 @@ payload = {
 headers = {'Customer': str(44) ,}
 
 
-response = requests.put(url, auth=('ricardoaraujo@trixlog','P4t4p0n3!'),  headers=headers, json=payload)
+response = requests.put(url, auth=('','!'),  headers=headers, json=payload)
 data = response.json()
 # print(data)
 # print(data['registration'])
